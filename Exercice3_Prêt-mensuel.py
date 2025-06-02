@@ -16,4 +16,12 @@ n=int(input("Entrer le nombre d'années:"))
 print("le capital acquis avec intérêts est de", round(c(n*12),2), "euros au bout de", n, "ans avec des versements mensuels") #capital acquis (c0 = capital de départ)
 print("Les intérêts gagnés au taux annuel de", t, "% sont de", round(c(n*12)-n*m*12-c0,2), "euros.") #
 print("Sans placement avec intérêts le capital acquis serait de", round(n*m*12+c0,2),"euros")
-        
+
+#--> Exemples 1
+
+# 10 ans m = 1469   i = 26313
+# 15 ans m = 1058   i =
+# 20 ans m =        i =
+# 25 ans m =        i =
+# 30 ans m =        i =
+

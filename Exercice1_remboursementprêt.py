@@ -20,10 +20,10 @@ print("Mois - Mensualité - Intérêts - Capital remboursé - Captital restant d
 ir=0
 
 for j in range(n*12):
-    i=tm*s      #intérêts
-    cr=m-i      #capital restant
-    crd=s-cr    #capital restant dû
-    ir=i+ir     #intérêts restant
+    i=tm*s      # intérêts
+    cr=m-i      # capital restant
+    crd=s-cr    # capital restant dû
+    ir=i+ir     # intérêts restant
 
     print("", j+1, "- ", round(m,1), " - ", round(i,1), " -  ", round(cr,1), "  -  ", round(crd,1), "  - ", round(ir,2))
     s=crd
