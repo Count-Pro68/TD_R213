@@ -1,3 +1,5 @@
+#Fonction permettant le rembourssement sur plusieurs années
+
 print("calcul prêt imobilier ou d'un crédit à la consommation.")
 s=int(input("Entrer le montant du prêt ou crédit:"))
 t=float(input("Entrer le taux annuel en %:"))
