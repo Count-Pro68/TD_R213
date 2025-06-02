@@ -7,7 +7,6 @@ def c(n):
 
 print("Calcul du capital acquis et des ses intérets versés lorsque les intérêts sont calculés une fois par mois")
 
-
 c0=int(input("Entrer le placement de départ (c0) :"))
 m=int(input("Entrer le montant du versement mensuel:"))
 t=float(input("Entrer me taux annuel en %:"))
